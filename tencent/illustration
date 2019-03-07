@@ -1,0 +1,16 @@
+腾讯招聘项目
+
+1.网址：https://hr.tencent.com/position.php?lid=&tid=&keywords=
+2.xpath表达式：
+
+    基准：//tr[@class="even"]|//tr[@class="odd"]
+
+    1.职位名称：./td[1]/a/text()
+    2.职位类别：./td[2]/a/text()
+    3.招聘人数：./td[3]/a/text()
+    4.招聘地点：./td[4]/a/text()
+    5.发布时间：./td[5]/a/text()
+    6.职位链接：./td[1]/a/@href
+
+
+
